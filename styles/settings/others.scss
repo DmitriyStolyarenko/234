@@ -1,0 +1,43 @@
+.flex{
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+}
+.color-grad-first{
+	background: linear-gradient(90deg, #EE9CA7 0%, #FFDDE1 100%);
+}
+.color-grad-second{
+	background: linear-gradient(135.05deg, #7474BF 0%, #348AC7 66.7%);
+}
+.color-grad-pur{
+	background: linear-gradient(90deg, #834D9B 0%, #D04ED6 100%);
+}
+.color-grad-footer{
+	background: linear-gradient(135.05deg, #7474BF 33.3%, #348AC7 100%);
+}
+.color-background-sky{
+	background: #E9F0FA;
+}
+.main-title-p{
+	color: #0072DE;
+	font-weight: bold;
+	font-size: 34px !important;
+	padding: 0;
+	margin: 0;
+	text-align: start;
+	@include tablets {
+		text-align: center;
+		padding-bottom: 2.61%;
+		padding-top: 2.61%;
+	}
+
+	@include phones {
+		font-size: 28px !important;
+	}
+}
+.l-text-pb{
+	padding-bottom: 30px;
+	@include tablets {
+	padding-bottom: 0px;
+}
+}
